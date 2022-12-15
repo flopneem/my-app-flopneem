@@ -1,4 +1,4 @@
-package junits;
+package calculators;
 
 import java.io.FileNotFoundException;
 import java.util.Locale;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 // BMI Calculator in Java
 // Uses metric units
-class BMRCalculator {
+public class BMRCalculator {
     public static double computeBMI(double weight, int height) {
         return 703 * (weight) / (height * height);
     }
