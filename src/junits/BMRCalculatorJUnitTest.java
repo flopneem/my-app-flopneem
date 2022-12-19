@@ -1,32 +1,12 @@
 package junits;
 
-import static calculators.BMRCalculator.computeBMI;
-import static calculators.BMRCalculator.computeBMR;
-import static calculators.BMRCalculator.getAge;
-import static calculators.BMRCalculator.getBodyType;
-import static calculators.BMRCalculator.getBurnRate;
-import static calculators.BMRCalculator.getHeight;
-import static calculators.BMRCalculator.getName;
-import static calculators.BMRCalculator.getWeight;
-import static calculators.BMRCalculator.getWeightCategory;
-import static calculators.BMRCalculator.isValidBodyType;
-import static calculators.BMRCalculator.isValidHeight;
-import static calculators.BMRCalculator.isValidInteger;
-import static calculators.BMRCalculator.isValidWeight;
-import static calculators.BMRCalculator.computeHighEndHealthyWeight;
-import static calculators.BMRCalculator.computeLowEndHealthyWeight;
-import static calculators.BMRCalculator.start;
+import org.junit.jupiter.api.Test;
 
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static calculators.BMRCalculator.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class BMRCalculatorJUnitTest {
